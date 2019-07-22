@@ -1,0 +1,52 @@
+body {
+    font-family: 'Courgette', cursive;
+}
+
+#background{
+  background-image:url(../images/background.jpeg);
+  background-size: cover;
+  border: 1px solid black;
+  font-family: 'Courgette', cursive;
+}
+
+#backgroundFooter{
+  padding-top: 20px;
+  background: black;
+  color: gray;
+  font-family: 'Courgette', cursive;
+}
+#header{
+  background: rgba(205, 29, 29, 1);
+  border: 1px solid black;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.cadre {
+    padding: 20px;
+    border:1px solid black;
+}
+
+.spaceIndex{
+  margin-top: 20px;
+}
+
+.spaceBottom{
+  margin-bottom: 30px;
+
+}
+
+.spacebeforeFooter{
+  padding-bottom: 170px;
+}
+
+.projetBottom{
+  padding-bottom: 300px;
+}
+
+.textcolor {
+    color: #CD1D1D;
+}
+
+
+
