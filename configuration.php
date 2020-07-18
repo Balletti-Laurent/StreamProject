@@ -2,9 +2,9 @@
 
 // Base de données
 define('HOST', '127.0.0.1');
-define('DBNAME', 'streamProject');
-define('LOGIN', 'Laurent');
-define('PASSWORD', 'Yasmina');
+define('DBNAME', 'streamproject');
+define('LOGIN', '****');
+define('PASSWORD', '****');
 
 include 'models/database.php';
 include 'models/useraccount.php';

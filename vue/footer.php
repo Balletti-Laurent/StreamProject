@@ -10,7 +10,7 @@
                     <p class="col-sm-2 col-md-2">Mentions legales</p>
                     <p class="col-sm-2 col-md-2">Nous contacter</p>
                 </div>
-                <p class="text-center">Laurent Balletti · 2018-2019 · all rights reserved</p>
+                <p class="text-center">Laurent Balletti · 2019-2020 · all rights reserved</p>
             </div>
         </div>
     </div>

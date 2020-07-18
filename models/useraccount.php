@@ -47,7 +47,7 @@ class useraccount extends database {
      * @return type
      */
     function checkFreeMail() {
-//verifie que l'e rendez vous n est pas pris l'adresse mail n'existe pas
+//verifie si l'adresse mail n'existe pas
         $query = 'SELECT COUNT(*) AS `nbMail` FROM `103useraccount` WHERE `mail` = :mail';
         $result = $this->db->prepare($query);
         $result->bindValue(':mail', $this->mail, PDO::PARAM_STR);

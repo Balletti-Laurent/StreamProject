@@ -68,7 +68,7 @@ if (isset($_POST['mailTest'])) {
         if (!empty($_POST['password']) && !empty($_POST['passwordVerify'])) {
             if ($_POST['password'] == $_POST['passwordVerify']) {
 
-//On hash du passeword
+//On hash le passeword
                 $password = password_hash($_POST['password'], PASSWORD_BCRYPT);
             } else {
                 $formError['password'] = 'Les mots de passe ne sont pas identiques';

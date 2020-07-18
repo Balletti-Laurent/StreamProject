@@ -27,7 +27,7 @@ $id_103typeofstream = '';
 $id_103typeofgame = '';
 
 //Déclaration regex title
-$regexTitle = '/^[0-9a-zA-Z\- ]+$/';
+$regexTitle = '/^[0-9a-zA-Z\-\'éè ]+$/';
 
 if (isset($_POST['submit'])) {
 
